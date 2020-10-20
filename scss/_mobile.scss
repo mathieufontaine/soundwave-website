@@ -1,0 +1,12 @@
+@media (max-width: 900px) {
+  .home-main-section {
+    display: flex;
+
+    .img-wrapper {
+      display: none;
+    }
+    .call-to-action {
+      margin: 1rem auto;
+    }
+  }
+}

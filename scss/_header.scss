@@ -1,0 +1,28 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.brand-logo-name {
+  margin-left: 1rem;
+}
+
+.main-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  a {
+    padding: 1rem;
+    &:hover {
+      color: lightgray;
+    }
+  }
+}

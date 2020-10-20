@@ -1,0 +1,29 @@
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: $secondary-color;
+  font-weight: bold;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      a {
+        padding: 1rem;
+        &:hover {
+          color: lightgray;
+        }
+      }
+      .social-link img {
+        width: 1em;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
