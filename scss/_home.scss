@@ -31,6 +31,9 @@
     align-items: flex-start;
     margin: 1rem;
     align-self: center;
+    h1 {
+      font-size: 7rem;
+    }
   }
 }
 
@@ -38,9 +41,10 @@
   position: absolute;
   border-radius: 50%;
   opacity: 12%;
+  z-index: -1;
 }
 
-#circle-1 {
+.home-circle.circle-1 {
   left: 3vw;
   bottom: 5vw;
   width: 15vw;
@@ -48,7 +52,7 @@
   background: #bc3a80;
 }
 
-#circle-2 {
+.home-circle.circle-2 {
   top: 10vw;
   left: 35vw;
   width: 13vw;
@@ -56,7 +60,7 @@
   background: #0670a4;
 }
 
-// #circle-3 {
+// .home-circle.circle-3 {
 //   bottom: -10vw;
 //   right: -20vw;
 //   width: 35vw;
@@ -64,7 +68,7 @@
 //   background: #0670a4;
 // }
 
-#circle-3 {
+.home-circle.circle-3 {
   bottom: 0;
   right: 0;
   width: 35vw;
@@ -73,7 +77,7 @@
   border-radius: 0;
 }
 
-#circle-3::before {
+.home-circle.circle-3::before {
   content: "";
   position: absolute;
   height: 100%;

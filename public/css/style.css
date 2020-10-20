@@ -9,6 +9,7 @@
 html {
   font-size: 10px;
   background: #2f303a;
+  overflow: hidden;
 }
 
 .full-height-grow {
@@ -96,6 +97,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   height: 140px;
+  z-index: 2;
 }
 
 .brand-logo {
@@ -191,13 +193,18 @@ ul {
       align-self: center;
 }
 
+.home-main-section .call-to-action h1 {
+  font-size: 7rem;
+}
+
 .home-circle {
   position: absolute;
   border-radius: 50%;
   opacity: 12%;
+  z-index: -1;
 }
 
-#circle-1 {
+.home-circle.circle-1 {
   left: 3vw;
   bottom: 5vw;
   width: 15vw;
@@ -205,7 +212,7 @@ ul {
   background: #bc3a80;
 }
 
-#circle-2 {
+.home-circle.circle-2 {
   top: 10vw;
   left: 35vw;
   width: 13vw;
@@ -213,7 +220,7 @@ ul {
   background: #0670a4;
 }
 
-#circle-3 {
+.home-circle.circle-3 {
   bottom: 0;
   right: 0;
   width: 35vw;
@@ -222,7 +229,7 @@ ul {
   border-radius: 0;
 }
 
-#circle-3::before {
+.home-circle.circle-3::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -402,6 +409,48 @@ ul {
   border: 2px solid #24abee;
 }
 
+.join-circle {
+  position: absolute;
+  opacity: 12%;
+  z-index: -1;
+}
+
+.join-circle.circle-1 {
+  left: 0;
+  bottom: 0;
+  width: 30vw;
+  height: 30vw;
+}
+
+.join-circle.circle-1::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translateX(-40%);
+          transform: translateX(-40%);
+  border-radius: 50%;
+  background: #bc3a80;
+}
+
+.join-circle.circle-2 {
+  top: 0;
+  left: 20vw;
+  width: 25vw;
+  height: 25vw;
+}
+
+.join-circle.circle-2::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translate(40%, -40%);
+          transform: translate(40%, -40%);
+  border-radius: 50%;
+  background: #0670a4;
+}
+
 .main-footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -536,16 +585,26 @@ ul {
   .container {
     width: 100%;
   }
-  #circle-2 {
-    top: auto;
-    bottom: 70vw;
-    left: 65vw;
+  .brand-logo img {
+    width: 40px;
+  }
+  .home-circle.circle-1 {
+    width: 13vh;
+    height: 13vh;
+  }
+  .home-circle.circle-2 {
+    width: 15vh;
+    height: 15vh;
   }
   .discover-main-section .content .icons-container .icon {
     height: 100px;
   }
   .discover-main-section .content .icons-container .icon img {
     width: 40%;
-    margin: auto;
+    margin: 1rem auto;
+  }
+  .join-circle.circle-1 {
+    bottom: 17vw !important;
+    left: 15vw !important;
   }
 }

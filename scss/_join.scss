@@ -56,3 +56,43 @@
     }
   }
 }
+
+.join-circle {
+  position: absolute;
+  opacity: 12%;
+  z-index: -1;
+}
+
+.join-circle.circle-1 {
+  left: 0;
+  bottom: 0;
+  width: 30vw;
+  height: 30vw;
+}
+
+.join-circle.circle-1::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform: translateX(-40%);
+  border-radius: 50%;
+  background: #bc3a80;
+}
+
+.join-circle.circle-2 {
+  top: 0;
+  left: 20vw;
+  width: 25vw;
+  height: 25vw;
+}
+
+.join-circle.circle-2::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform: translate(40%, -40%);
+  border-radius: 50%;
+  background: #0670a4;
+}

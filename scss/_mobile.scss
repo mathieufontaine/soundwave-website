@@ -62,16 +62,27 @@
   .container {
     width: 100%;
   }
-  #circle-2 {
-    top: auto;
-    bottom: 70vw;
-    left: 65vw;
+  .brand-logo img {
+    width: 40px;
+  }
+  .home-circle.circle-1 {
+    width: 13vh;
+    height: 13vh;
+  }
+  .home-circle.circle-2 {
+    width: 15vh;
+    height: 15vh;
   }
   .discover-main-section .content .icons-container .icon {
     height: 100px;
     img {
       width: 40%;
-      margin: auto;
+      margin: 1rem auto;
     }
+  }
+
+  .join-circle.circle-1 {
+    bottom: 17vw !important;
+    left: 15vw !important;
   }
 }
