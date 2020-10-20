@@ -253,7 +253,7 @@ ul {
       -ms-flex-positive: 1;
           flex-grow: 1;
   height: 100%;
-  min-height: calc(100vh - 140px - 80px);
+  min-height: calc(100vh - 140px - 80px - 40px);
 }
 
 .discover-main-section .content {
@@ -296,7 +296,7 @@ ul {
   padding-top: 1.5rem;
   width: 100px;
   height: 130px;
-  background: #020202;
+  background: #171616;
   font-size: 2rem;
   border-radius: 10px;
   cursor: pointer;
@@ -323,7 +323,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  min-height: calc(100vh - 140px - 80px);
+  min-height: calc(100vh - 140px - 80px - 40px);
 }
 
 .join-main-section .title {
@@ -348,7 +348,7 @@ ul {
 
 .join-main-section .form-container .form {
   width: 40vw;
-  background: #020202;
+  background: #171616;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -462,7 +462,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   height: 80px;
-  background: #020202;
+  background: #171616;
   z-index: 2;
 }
 
@@ -501,6 +501,59 @@ ul {
 .main-footer .container ul .social-link img {
   width: 1em;
   margin-right: 1rem;
+}
+
+.credit {
+  background: #0670a4;
+  height: 40px;
+}
+
+.credit .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.credit .container span {
+  font-weight: 900;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.credit .container span:hover {
+  color: #2f303a;
+}
+
+.credit .container .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.credit .container .logos .fa {
+  font-size: 2.5rem;
+  margin-left: 20px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.credit .container .logos .fa:hover {
+  color: #2f303a;
 }
 
 @media (max-width: 13000px) {
