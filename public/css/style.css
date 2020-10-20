@@ -129,7 +129,7 @@ ul {
 }
 
 .main-nav ul a:hover {
-  color: lightgray;
+  color: #bc3a80;
 }
 
 .home-main-section {
@@ -522,13 +522,13 @@ ul {
   height: 100%;
 }
 
-.credit .container span {
+.credit .container .name a {
   font-weight: 900;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 
-.credit .container span:hover {
+.credit .container .name a:hover {
   color: #2f303a;
 }
 
