@@ -4,7 +4,7 @@
   align-items: center;
   height: 80px;
   background: $secondary-color;
-  font-weight: bold;
+  // font-weight: bold;
   z-index: 2;
   .container {
     display: flex;
@@ -17,6 +17,7 @@
       padding: 0;
       a {
         padding: 1rem;
+        font-size: 2rem;
         &:hover {
           color: lightgray;
         }

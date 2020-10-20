@@ -1,3 +1,8 @@
+@media (max-width: 13000px) {
+  .container {
+    width: 90%;
+  }
+}
 @media (max-width: 900px) {
   html {
     font-size: 50%;
@@ -13,6 +18,7 @@
     }
     .call-to-action {
       margin: 1rem auto;
+      align-items: center;
     }
     .call-to-action {
       order: -1;
@@ -55,6 +61,11 @@
   }
   .container {
     width: 100%;
+  }
+  #circle-2 {
+    top: auto;
+    bottom: 70vw;
+    left: 65vw;
   }
   .discover-main-section .content .icons-container .icon {
     height: 100px;
