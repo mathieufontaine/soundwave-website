@@ -36,4 +36,31 @@
       width: 60%;
     }
   }
+  .join-main-section {
+    display: flex;
+    flex-direction: column;
+    .title,
+    .form-container {
+      margin: 2rem auto;
+      .form {
+        width: 70vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 40%;
+  }
+  .container {
+    width: 100%;
+  }
+  .discover-main-section .content .icons-container .icon {
+    height: 100px;
+    img {
+      width: 40%;
+      margin: auto;
+    }
+  }
 }

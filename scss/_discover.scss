@@ -26,6 +26,11 @@
         height: 130px;
         background: $secondary-color;
         font-size: 2rem;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover {
+          background: #0670a4;
+        }
       }
     }
   }

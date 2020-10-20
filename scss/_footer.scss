@@ -5,6 +5,7 @@
   height: 80px;
   background: $secondary-color;
   font-weight: bold;
+  z-index: 2;
   .container {
     display: flex;
     justify-content: space-between;
