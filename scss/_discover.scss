@@ -1,0 +1,36 @@
+.discover-main-section {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  grid-gap: 3rem;
+  flex-grow: 1;
+  height: 100%;
+  min-height: calc(100vh - 140px - 80px);
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    .icons-container {
+      display: flex;
+      margin: 5rem 0;
+      .icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem;
+        padding: 1rem;
+        padding-top: 1.5rem;
+        width: 100px;
+        height: 130px;
+        background: $secondary-color;
+        font-size: 2rem;
+      }
+    }
+  }
+  .covers-img {
+    width: 80%;
+    margin-left: auto;
+  }
+}

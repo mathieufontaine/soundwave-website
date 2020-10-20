@@ -1,12 +1,39 @@
 @media (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
   .home-main-section {
-    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0;
 
     .img-wrapper {
-      display: none;
+      margin: 0 auto;
+      min-width: 50vw;
     }
     .call-to-action {
       margin: 1rem auto;
+    }
+    .call-to-action {
+      order: -1;
+    }
+  }
+  .discover-main-section {
+    display: flex;
+    flex-direction: column;
+
+    .content,
+    .covers-img {
+      margin: 1rem auto;
+    }
+    .content {
+      text-align: center;
+      .icons-container {
+        justify-content: center;
+      }
+    }
+    .covers-img {
+      width: 60%;
     }
   }
 }
