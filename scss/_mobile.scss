@@ -73,6 +73,9 @@
     width: 15vh;
     height: 15vh;
   }
+  .home-main-section .img-wrapper .lady-img {
+    min-width: 60vw;
+  }
   .discover-main-section .content .icons-container .icon {
     height: 100px;
     img {
@@ -80,7 +83,6 @@
       margin: 1rem auto;
     }
   }
-
   .join-circle.circle-1 {
     bottom: 17vw !important;
     left: 15vw !important;

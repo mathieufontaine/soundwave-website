@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
     <title>Soundwave</title>
 </head>
 
-<body class="full-height-grow">
+<body data-barba="wrapper" class="full-height-grow">
+
+    <ul class="transition">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
     <div class="container">
         <header class="main-header">
             <a href="index.html" class="brand-logo">
@@ -24,82 +33,90 @@
                 </ul>
             </nav>
         </header>
-        <section class="join-main-section">
-            <div class="title">
-                <h1>Join the <span>fun.</span></h1>
-            </div>
-            <div class="form-container" data-aos="fade-down" data-aos-duration="2000">
-                <form class="form">
-                    <div class="inputs-container">
-                        <div class="input-group">
-                            <label for="name">Name:</label>
-                            <input type="text">
-                        </div>
-                        <div class="input-group">
-                            <label for="email">Email:</label>
-                            <input type="text">
-                        </div>
-                        <div class="input-group">
-                            <label for="password">Password:</label>
-                            <input type="text">
-                        </div>
-                        <div class="input-group">
-                            <div class="btn">Sign Up</div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <div class="join-circle circle-1"></div>
-        <div class="join-circle circle-2"></div>
-
     </div>
-    <footer class="main-footer">
+    <main data-barba="container" data-barba-namespace="join">
         <div class="container">
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <nav class="footer-nav">
-                <ul>
-                    <li>
-                        <a href="#" class="social-link">
-                            <img src="img/twitter.svg" alt="twitter">
-                            Twitter
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-link">
-                            <img src="img/facebook.svg" alt="facebook">
-                            Facebook
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <section class="join-main-section">
+                <div class="title">
+                    <h1>Join the <span>fun.</span></h1>
+                </div>
+                <div class="form-container" data-aos="fade-down" data-aos-duration="2000">
+                    <form class="form">
+                        <div class="inputs-container">
+                            <div class="input-group">
+                                <label for="name">Name:</label>
+                                <input type="text">
+                            </div>
+                            <div class="input-group">
+                                <label for="email">Email:</label>
+                                <input type="text">
+                            </div>
+                            <div class="input-group">
+                                <label for="password">Password:</label>
+                                <input type="text">
+                            </div>
+                            <div class="input-group">
+                                <div class="btn">Sign Up</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <div class="join-circle circle-1"></div>
+            <div class="join-circle circle-2"></div>
         </div>
-    </footer>
-    <footer class="credit">
-        <div class="container">
-            <p class="name">
-                Developped By
-                <a href="https://www.linkedin.com/in/mathieu-fontaine">Mathieu Fontaine
-                </a>
-            </p>
-            <div class="logos">
-                <a href="https://www.linkedin.com/in/mathieu-fontaine/" target="_blank"><i class="fa fa-linkedin"
-                        aria-hidden="true"></i></a>
-                <a href="https://github.com/mathieufontaine" target="_blank"><i class="fa fa-github"
-                        aria-hidden="true"></i></a>
-            </div>
-            <p>® Copyright 2020</p>
-        </div>
-    </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://kit.fontawesome.com/f3e2209c65.js" crossorigin="anonymous"></script>
 
-    <script> AOS.init(); </script>
+        </div>
+        <footer class="main-footer">
+            <div class="container">
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-nav">
+                    <ul>
+                        <li>
+                            <a href="#" class="social-link">
+                                <img src="img/twitter.svg" alt="twitter">
+                                Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <img src="img/facebook.svg" alt="facebook">
+                                Facebook
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <footer class="credit">
+            <div class="container">
+                <p class="name">
+                    Developped By
+                    <a href="https://www.linkedin.com/in/mathieu-fontaine">Mathieu Fontaine
+                    </a>
+                </p>
+                <div class="logos">
+                    <a href="https://www.linkedin.com/in/mathieu-fontaine/" target="_blank"><i class="fa fa-linkedin"
+                            aria-hidden="true"></i></a>
+                    <a href="https://github.com/mathieufontaine" target="_blank"><i class="fa fa-github"
+                            aria-hidden="true"></i></a>
+                </div>
+                <p>® Copyright 2020</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://kit.fontawesome.com/f3e2209c65.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <!-- <script> AOS.init(); </script> -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

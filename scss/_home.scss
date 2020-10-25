@@ -12,6 +12,8 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-end;
+    transform: translate(0, 0);
+    opacity: 1;
 
     .lady-img {
       background: url("../img/landing-page-girl.png");
@@ -31,6 +33,9 @@
     align-items: flex-start;
     margin: 1rem;
     align-self: center;
+    transform: translate(0, 0);
+    opacity: 1;
+
     h1 {
       font-size: 7rem;
     }
