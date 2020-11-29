@@ -19,9 +19,11 @@
     .call-to-action {
       margin: 1rem auto;
       align-items: center;
+      margin-bottom: 12rem;
     }
     .call-to-action {
       order: -1;
+      text-align: center;
     }
   }
   .discover-main-section {
@@ -60,10 +62,14 @@
     font-size: 40%;
   }
   .container {
-    width: 100%;
+    width: 90%;
+    padding: 0;
   }
   .brand-logo img {
     width: 40px;
+  }
+  .home-main-section .call-to-action {
+    margin-bottom: 1rem;
   }
   .home-circle.circle-1 {
     width: 13vh;
