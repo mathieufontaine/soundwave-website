@@ -208,7 +208,8 @@ ul.transition li {
 }
 
 .home-main-section .img-wrapper .lady-img img {
-  width: 90%;
+  width: auto;
+  height: 100%;
   position: absolute;
   bottom: 0;
 }
